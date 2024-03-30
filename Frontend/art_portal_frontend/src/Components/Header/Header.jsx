@@ -1,0 +1,19 @@
+import React from "react";
+import "./Header.css";
+
+const Header = () => {
+  return (
+    <div className="header">
+      <div className="header-contents">
+        <h2>Order your favourite artwork</h2>
+        <p>
+          Choose from diverse artworks a featuring delectable array of
+          decorative items that will beautify your home
+        </p>
+        <button>View Menu</button>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
